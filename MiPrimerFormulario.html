@@ -1,49 +1,55 @@
-!<!Doctype HTLM>
+<!Doctype HTLM>
 <html>
 <head>
 	<meta charset="UTF-8" >
 	<title> Ingreso datos </title>
 </head>
 <body>
-	<H1> INGRESO DE DATOS PERSONA
+	<H1> INGRESO DE DATOS ESTUDIANTES
 	<form>
 	<div>
 	<fieldset>
-<	legend> datos personales </legend>
-  	<label for="nombre">nombre:</label><br>
-  	<input type="text" id="nombre" name="nombre">
+	Datos personales
 	<br>
- 	<label for="apellido">apellido:</label><br>
-  	<input type="text" id="apellido" name="apellido">
-	<fieldset>
+  	<label for="Nombre">Nombre:</label><br>
+  	<input type="text" id="Nombre" name="Nombre">
+	<br>
+ 	<label for="Apellido">Apellido:</label><br>
+  	<input type="text" id="Apellido" name="Apellido">
+	</fieldset>
 	</div>
 	<br>
-	<div>
-  	<input type="radio" id="html" name="fav_language" value="HTML">
-  	<label for="html">HTML</label><br>
-  	<input type="radio" id="css" name="fav_language" value="CSS">
-  	<label for="css">CSS</label><br>
-  	<input type="radio" id="python" name="fav_language" value="python">
-  	<label for="python">python</label>
-	</div>
-	<div>
-  	<input type="checkbox" id="pc" name="vehicle1" value="pc">
- 	 <label for="pc"> tengo una pc</label><br>
-  	<input type="checkbox" id="laptop" name="laptop" value="laptop">
-  	<label for="laptop"> yo tengo una laptop</label><br>
-  	<input type="checkbox" id="tablet" name="table" value="tablet">
-  	<label for="tablet> yo tengo una tablet</label>
-	</div>
+  	<label for="Num Cédula">Cédula:</label><br>
+  	<input type="text" id="Num Cédula" name="Num Cedula">
+	<br>
+ 	<label for="Correo">Correo:</label><br>
+  	<input type="text" id="Correo" name="Correo">	
 	<div>
 	<br>
-	<label for="semestre">escoger el semestre:</label>
+	<label for="semestre">Escoger semestre:</label>
 	<select id="semestre" name="semestre">
+ 	 <option value="1">seleccione</option>
  	 <option value="1">Primer semestre</option>
- 	 <option value="2">segundo semestre</option>
- 	 <option value="3">tercer semestre</option>
- 	 <option value="4"> cuarto semestre</option>
+ 	 <option value="2">Segundo semestre</option>
+ 	 <option value="3"> Tercer semestre</option>
+	<option value="4"> Cuarto semestre</option>
 	</select>
-</div>
+	<div>
+	<label for="materia">Escoger materia:</label>
+	<select id="materia" name="Escoger materia">
+ 	 <option value="1">seleccione</option>
+ 	 <option value="1">Matemáticas</option>
+ 	 <option value="2">Lenguaje</option>
+ 	 <option value="3"> Contabilidad</option>
+	<option value="4"> Inglés </option>
+	</select>
+	</div>
+	<br>
+	<label for= "inglés"> Nivel de Inglés: </label>
+	<input type="range"  id="inglés"  name="inglés" value="50">
+	</br>
+	<input type="submit" value="Enviar Datos">
+
 <form>
 </body>
 </html>
