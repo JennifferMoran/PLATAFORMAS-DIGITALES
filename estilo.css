@@ -1,0 +1,18 @@
+body {
+	background-color:pink;
+	}
+p {
+	font-family:blue;
+	border: 2px solid white; 
+	padding:30 px;
+	}
+strong {
+	color:blue;
+	}
+p.center{
+	text-align:center;
+	color :green;
+	    }
+h1      {
+	font-size:300%
+	}
